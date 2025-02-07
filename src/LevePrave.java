@@ -11,7 +11,7 @@ public class LevePrave extends JFrame{
 
     private void initComponent() {
         setContentPane(pnMain);
-        setTitle("Hello GUI");
+        setTitle("LevaPrava");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         pack();
         btLeva.addActionListener(e -> leva());
